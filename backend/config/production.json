@@ -1,0 +1,14 @@
+{
+  "port": 4000,
+  "production": true,
+  "db": {
+    "user": "blpaveyifjjlws",
+    "host": "ec2-54-228-250-82.eu-west-1.compute.amazonaws.com",
+    "database": "d90fci9s2v6vs5",
+    "password": "7ee7b1256c0188ec9935783297b1285b7a7995d4b5affa9992521b7ec4a0b4f1",
+    "port": 5432,
+    "ssl": {
+      "rejectUnauthorized": false
+    }
+  }
+}

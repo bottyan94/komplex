@@ -1,0 +1,10 @@
+<div class="list-card">
+  <div class="header"> Gyakran választott:</div>
+  <ng-container *ngIf="list">
+    <div class="row m-0">
+      <div class="col-3 card-container" *ngFor="let item of list">
+        <app-item-card [item]="item" (clickEvent)="clickEvent($event)"></app-item-card>
+      </div>
+    </div>
+  </ng-container>
+</div>

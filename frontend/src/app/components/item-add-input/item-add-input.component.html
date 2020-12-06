@@ -1,0 +1,6 @@
+<input type="search" class="form-control mydropdowninput" #instance="ngbTypeahead" [ngbTypeahead]="search"
+  (focus)="focus$.next($event.target.value)"
+  (click)=" click$.next($event.target.value); $event.stopPropagation();"
+  (selectItem)="addItemToList($event.item)" 
+  (change)="addItemToList($event.target.value)"
+  />

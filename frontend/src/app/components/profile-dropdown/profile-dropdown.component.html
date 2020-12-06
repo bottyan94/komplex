@@ -1,0 +1,7 @@
+<img class="profile-logo" src="../../../assets/logos/profile.png" (click)="isOpened = isOpened? false : true">
+<ng-container *ngIf="isOpened">
+  <div class="profile-box">
+    <div class="header">{{user.name}}</div>
+    <button class="mt-4 btn btn-secondary" (click)="logout()"> Kijelentkezés </button>
+  </div>
+</ng-container>

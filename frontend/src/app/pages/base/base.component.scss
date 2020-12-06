@@ -1,0 +1,14 @@
+.bg {
+  background-image: url('../../../assets/bg/cool-background.png');
+  height: 100vh;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.center-list{
+  display: flex;
+  justify-content: center;
+  text-align: -webkit-center;  
+}

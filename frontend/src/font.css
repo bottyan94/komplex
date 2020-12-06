@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Sansation_Bold";
+  src: url("./assets/fonts/Sansation_Bold.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Sansation_Bold_Italic";
+  src: url("./assets/fonts/Sansation_Bold_Italic.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Sansation_Italic";
+  src: url("./assets/fonts/Sansation_Italic.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Sansation_Light";
+  src: url("./assets/fonts/Sansation_Light.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Sansation_Light_Italic";
+  src: url("./assets/fonts/Sansation_Light_Italic.ttf") format("opentype");
+}@font-face {
+  font-family: "Sansation_Regular";
+  src: url("./assets/fonts/Sansation_Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Poppins_Regular";
+  src: url("./assets/fonts/Poppins-Regular.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Poppins_Medium";
+  src: url("./assets/fonts/Poppins-Medium.ttf") format("opentype");
+}
+@font-face {
+  font-family: "Poppins_SemiBold";
+  src: url("./assets/fonts/Poppins-SemiBold.ttf") format("opentype");
+}

@@ -1,0 +1,26 @@
+<nav id="nav" class="menu-vertical nav navbar navbar-expand-lg navbar-dark smooth-scroll" style="max-width: 100%">
+  <a id="logo" class="navbar-brand col"> <img src="../../../assets/logos/logo.png" class="logo pointer"
+      [routerLink]="['/']" /></a>
+  <button id="mediaButton" class="navbar-toggler" type="button" data-toggle="collapse"
+    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span><img src="../../../../assets/icons/hamburger.svg" /></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav ">
+      <li class="nav-item">
+        <label> Hozzáadás a listához </label>
+        <app-item-add-input></app-item-add-input>
+      </li>
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item">
+        <a class="text-uppercase"> Kamugomb </a>
+      </li>
+      <li class="nav-item">
+        <app-profile-dropdown></app-profile-dropdown>
+      </li>
+
+    </ul>
+  </div>
+</nav>

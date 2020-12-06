@@ -1,0 +1,96 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+:root {
+  --dark-blue: #1B3E73;
+  --light-blue: #1B3E7399;
+  --light-grey: #707070;
+  --red: rgba(255, 59, 16, 0.4);
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img,
+a,
+label {
+  outline: none;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.btn-main {
+  display: inline-block;
+  cursor: pointer;
+
+  max-width: 181px;
+  min-width: 56px;
+  height: 56px;
+  background-color: #1B3E73 !important;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: center;
+  font-family: 'Poppins_Medium';
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 0px;
+  color: #fff !important;
+  opacity: 1;
+  border-color: transparent !important;
+  outline: transparent !important;
+}
+
+.btn-main:active {
+  position: relative;
+  top: 1px;
+  border-color: transparent !important;
+  outline: transparent !important;
+}
+
+.btn-sec {
+  display: inline-block;
+  cursor: pointer;
+
+  width: 181px;
+  height: 56px;
+  background: transparent 0% 0% no-repeat padding-box;
+  border-radius: 5px;
+  opacity: 1;
+  text-align: center;
+  font-family: 'Poppins_Medium';
+  font-size: 16px;
+  text-decoration: none;
+  letter-spacing: 0px;
+  color: #FFF !important;
+  opacity: 1;
+  border: 3px solid #FFFFFF !important;
+  outline: transparent !important;
+}
+
+.btn-sec:active,
+.btn-sec:focus,
+.btn-sec:hover {
+  position: relative;
+  top: 1px;
+  border: 3px solid #FFFFFF;
+  outline: transparent !important;
+  background: transparent 0% 0% no-repeat padding-box;
+}
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';

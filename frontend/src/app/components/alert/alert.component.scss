@@ -1,0 +1,43 @@
+.alert-message {
+    text-align: center;
+    font-weight: 600;
+}
+.my-alert {
+    z-index: 100;
+    opacity: 0.9;
+    top: auto;
+    bottom: 0;
+    right: 0%;
+    width: 440px;
+}
+.alert {
+    border-radius: 10px 0 0 10px;
+    min-height: 50px;
+    color: black;
+}
+.alert-success {
+    background: linear-gradient(0deg, rgba(1, 194, 95, 0.4), rgba(1, 194, 95, 0.4)), #FFFFFF!important;
+    background-color: rgba(1, 194, 95, 0.4) !important;
+
+    border: none;
+}
+.alert-warning {
+    background-color: rgba(255, 219, 16, 0.4) !important;
+    background: linear-gradient(0deg, rgba(255, 219, 16, 0.4), rgba(255, 219, 16, 0.4)), #FFFFFF!important;
+
+    border: none;
+}
+.alert-info {
+    background: linear-gradient(0deg, rgba(91, 206, 224, 0.4), rgba(91, 206, 224, 0.4)), #FFFFFF!important;
+    background-color: rgba(91, 206, 224, 0.4) !important;
+    border: none;
+}
+.alert-danger {
+    background: linear-gradient(0deg, rgba(255, 59, 16, 0.4), rgba(255, 59, 16, 0.4)), #FFFFFF!important;
+    background-color: rgba(255, 59, 16, 0.4) !important;
+    border: none;
+}
+.alert-grid {
+  display: grid;
+  grid-template-columns: minmax(30px,31px) minmax(300px, 1fr) minmax(30px,31px);
+}
